@@ -1,0 +1,84 @@
+body {
+    background-color: black;
+}
+
+
+button{
+    padding: 10%;
+    margin: 10px;
+   border-radius: 10px;
+   border-color: bisque;
+border: none;
+}
+
+#normal{
+
+}
+
+#sombreado{
+    box-shadow: 3px 3px 30px orange;
+    background-color: rgb(125, 111, 206);
+
+}
+
+#gradiente{
+     background:linear-gradient(to left, purple, blueviolet)
+}
+
+#gradiente:hover{
+   cursor: pointer;
+   background-color: aliceblue;
+   transform: translateY(5px);
+
+
+}
+
+#pontilhado{
+    border: 5px dashed rgb(131, 17, 207) ;
+    background-color: transparent;
+    color: antiquewhite;
+}
+
+#icone{
+     background-color: blanchedalmond;
+     color: black;
+
+}
+#icone:hover{
+    transform: scaleX(5px);
+    scale: (1.1);
+    background-color: blueviolet;
+    transform: translateY(5px);
+
+}
+
+#pointer{
+      background-color: rgb(140, 70, 180);
+      transition: all 0.5s ease;
+}
+
+#pointer:active {
+transform: scale(0.8);
+
+}
+
+#neon{
+   background-color: rgb(90, 82, 207);
+   box-shadow: 0 0 5px rgb(134, 136, 255),0 0 25px rgb(134, 136, 255);
+
+
+}
+       
+#vinil{
+   background-color: blueviolet;
+
+}
+
+#vinil:hover{
+animation: SARU 1s infinite linear;
+
+}
+@keyframes SARU {
+    0%{ transform: rotate(0deg); }
+    100%{ transform: rotate(360deg);}
+}
